@@ -86,32 +86,6 @@ ignoreLogs = ['warning-goldmark-raw-html']
       icon = "fa-solid fa-table-cells"
     [params.taxonomies.tags]
       icon = "fa-solid fa-tag"
-  [params.includes]
-    jsModules = [
-        "js/theme/modules/const.js",
-        "js/theme/modules/helpers.js",
-        "js/theme/modules/helpersGlobal.js",
-        "js/theme/init.js",
-        "js/theme/navbar.js",
-        "js/theme/print.js",
-        "js/theme/qrcode.js",
-        "js/theme/search.js",
-        "js/theme/shortcuts.js",
-        "js/theme/sidebar.js",
-        "js/theme/toc.js",
-        "js/external/overlay-scrollbars/overlayscrollbars.min.js"
-      ]
-    js        = [
-        "js/theme/browserCompatibility.js",
-        "js/external/flexsearch/flexsearch.bundle.min.js",
-        "js/external/qrious/qrious.min.js"  
-    ]
-    css       = [
-        "css/external/fontawesome.all.min.css"
-    ]
-    sass      = [
-        "sass/custom/custom_variables.sass"
-    ]
   [params.versions]
     hugo_min         = "[0.129.0](https://github.com/gohugoio/hugo/releases/tag/v0.129.0)"
-    bulma            = "[0.9.4](https://github.com/jgthms/bulma/releases/tag/0.9.4)"
+    bulma            = "[1.0.3](https://github.com/jgthms/bulma/releases/tag/1.0.3)"
