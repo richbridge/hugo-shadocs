@@ -16,11 +16,10 @@
 //
 body
   +responsive-size(font-size, $content-font-size, 3px)
-  +static-size-height(100%)
-  +static-size-width(100%)
+  +static-size-height(100vh)
+  +static-size-width(100vw)
   +font-family(lato)
   flex-flow: column
-  position: fixed
   display: flex
 section
   +static-size-height(100%)
@@ -82,6 +81,8 @@ html
   scroll-behavior: smooth
 .is-modal
   cursor: zoom-in
+.is-enforced-hidden
+  display: none !important
 kbd
   box-shadow: inset 0 0.1rem 0.2rem tint($grey-light, 80), inset 0 -0.1rem 0.2rem tint($grey-light, 20)
   background: linear-gradient(tint($grey-light, 20), tint($grey-light, 80))

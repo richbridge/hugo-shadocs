@@ -107,15 +107,19 @@
       "js/external/intro/intro.min.js",
       "js/shortcodes/intro.js"
     ]
+    jsoneditor = [
+      "js/external/bulma-toast/bulma-toast.min.js",
+      "js/external/json-editor/jsoneditor.min.js",
+      "js/shortcodes/jsoneditor.js"
+    ]
+    openapi = [
+      "js/shortcodes/openapi.js",
+    ]
     treeview = [
       "js/shortcodes/treeview.js"
     ]
-    openapi = [
-      "js/shortcodes/openapi/openapi.mjs",
-    ]
   [includes.shortcodes.js]
     openapi = [
-      "js/shortcodes/openapi/openapi.js",
       "js/external/swagger-ui/swagger-ui-bundle.min.js",
       "js/external/swagger-ui/swagger-ui-standalone-preset.min.js"
     ]
@@ -126,9 +130,12 @@
     openapi = [
       "css/external/swagger-ui/swagger-ui.min.css"
     ]
+  [includes.fencedcodes.js]
+    mermaid = [
+      "js/external/mermaid/mermaid.min.js"
+    ]
   [includes.fencedcodes.jsModules]
     mermaid = [
-      "js/external/mermaid/mermaid.min.js",
       "js/fencedcodes/mermaid.js"
     ]
 #

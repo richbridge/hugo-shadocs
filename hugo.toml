@@ -12,10 +12,12 @@ title                  = "樊刹-学习心得分享"
 theme                  = "shadocs"
 themesdir              = "themes"
 
+ignoreLogs = ['warning-goldmark-raw-html']
+
 [module]
   [module.hugoVersion]
     extended = true
-    min = '0.129.0'
+    min = '0.141.0'
     max = ''
   [[module.mounts]]
     source = 'asyncapi'
