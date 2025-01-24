@@ -16,8 +16,8 @@ ignoreLogs = ['warning-goldmark-raw-html']
 
 [module]
   [module.hugoVersion]
-    extended = true
-    min = '0.112.0'
+    extended = false
+    min = '0.141.0'
     max = ''
   [[module.mounts]]
     source = 'asyncapi'
