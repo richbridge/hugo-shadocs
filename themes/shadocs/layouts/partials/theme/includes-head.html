@@ -68,11 +68,11 @@
     {{- $filesArray = $filesArray | append (resources.Get .) -}}
   {{- end -}}
   {{- $options := (dict "outputStyle" "compressed" "targetPath" "css/main.css") -}}
-  <!-- {{- $cssFile := $filesArray | resources.Concat "sass/theme/bundle.sass" | css.Sass $options -}} -->
+  <!-- {{- $cssFile := $filesArray | resources.Concat "sass/theme/bundle.sass" | css.Sass $options -}}
   <link
     rel="stylesheet"
     rel="preload"
     type="text/css"
     href="{{- $cssFile.RelPermalink | safeURL -}}"
-  />
+  /> -->
 {{- end -}}
