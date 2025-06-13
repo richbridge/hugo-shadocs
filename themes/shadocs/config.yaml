@@ -13,7 +13,7 @@ module:
     - source: static
       target: static
   imports:
-    path: /shadocs/assets/bulma
+    path: github.com/jgthms/bulma
     mounts:
     - source: .
       target: assets/sass
