@@ -1,0 +1,117 @@
+#
+# Standard configuration
+#
+baseURL                = "https://richfan.eu.org"
+copyright              = "The MIT License (MIT) Copyright © 2022 RichFan"
+defaultContentLanguage = "zh"
+enableEmoji            = false
+enableGitInfo          = false
+metaDataFormat         = "yaml"
+publishDir             = "public"
+title                  = "樊尘刹-红尘湮灭，唯有尘刹"
+theme                  = "shadocs"
+themesdir              = "themes"
+
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = '0.128.0'
+    max = ''
+  [[module.mounts]]
+    source = 'asyncapi'
+    target = 'static/asyncapi'
+  [[module.mounts]]
+    source = 'openapi'
+    target = 'static/openapi'
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.tableOfContents]
+    ordered    = false
+    startLevel = 1
+    endLevel   = 6
+  [markup.goldmark.renderer]
+    unsafe = false
+
+[Languages]
+  [Languages.zh]
+    contentDir   = "content/chinese"
+    title        = "樊尘刹-红尘湮灭，唯有尘刹"
+    weight       = 1
+    languageName = "简体中文"
+
+  [Languages.en]
+    contentDir   = "content/english"
+    title        = "Fan Temple - Learn And Share"
+    weight       = 2
+    languageName = "English"
+
+#
+# Specific configuration
+#
+[params]
+  logo                    = "https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/logo.avif"
+  logoTouch               = "https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/logo.avif"
+  image404                = "images/404.gif"
+  favicon                 = "https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif"
+  faviconmd               = "![Favicon](https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/logo/favicon.avif)"
+  homeLayout              = "onboarding"
+  siteContentOrder        = "weight"
+  # toc                   = true
+  # globalBanner          = true
+  currentVersion          = "latest"
+  latestVersionUrl        = "https://richfan.site/"
+  # enforceRefrelLinks    = true
+  [params.navbar.shortcuts]
+    [params.navbar.shortcuts.example]
+      keys     = ["Shift","1"]
+      function = "scExample"
+  [[params.navbar.versions]]
+    name = 'latest'
+    url  = 'https://richfan.site/'
+  [[params.navbar.versions]]
+    name = 'deprecated version'
+    url  = 'https://jgazeau.github.io/shadocs/404.html'
+  [params.taxonomies]
+    [params.taxonomies.categories]
+      icon = "fa-solid fa-table-cells"
+    [params.taxonomies.tags]
+      icon = "fa-solid fa-tag"
+  [params.includes]
+    jsModules = [
+        "js/theme/modules/const.js",
+        "js/theme/modules/helpers.js",
+        "js/theme/modules/helpersGlobal.js",
+        "js/theme/init.js",
+        "js/theme/navbar.js",
+        "js/theme/print.js",
+        "js/theme/qrcode.js",
+        "js/theme/search.js",
+        "js/theme/shortcuts.js",
+        "js/theme/sidebar.js",
+        "js/theme/toc.js",
+        "js/external/overlay-scrollbars/overlayscrollbars.min.js"
+      ]
+    js        = [
+        "js/theme/browserCompatibility.js",
+        "js/external/flexsearch/flexsearch.bundle.min.js",
+        "js/external/qrious/qrious.min.js"  
+    ]
+    css       = [
+        "css/external/fontawesome.all.min.css"
+    ]
+    sass      = [
+        "sass/custom/custom_variables.sass"
+    ]
+  [params.versions]
+    hugo_min         = "[0.129.0](https://github.com/gohugoio/hugo/releases/tag/v0.129.0)"
+    bulma            = "[0.9.4](https://github.com/jgthms/bulma/releases/tag/0.9.4"
