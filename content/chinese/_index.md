@@ -1,13 +1,13 @@
 ---
 weight: 0
-title: "樊刹 - 学习心得分享"
-description: "樊刹 专业 学习 考证"
+title: "樊尘刹-红尘湮灭，唯有尘刹"
+description: "樊刹 专业 学习 考证 樊尘刹"
 categories: ["主页"]
 ---
 
 
 {{< intro
-  introtitle="樊刹"
+  introtitle="樊尘刹"
   id="introHome"
 >}}
 {
@@ -15,7 +15,7 @@ categories: ["主页"]
   "oncomplete": "window.location.href = './';",
   "steps": [
     {
-      "title": "樊刹",
+      "title": "樊尘刹",
       "intro": "欢迎访问范庙网站。<br>通过这个循序渐进的入门指南，您将发现几个网站功能。",
       "onbeforechange": "toggleSidebar(false,true);toggleExtendMenu(false);"
     },{
