@@ -10,7 +10,6 @@ metaDataFormat         = "yaml"
 publishDir             = "public"
 title                  = "樊尘刹-红尘湮灭，唯有尘刹"
 theme                  = "shadocs"
-themesdir              = "themes"
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
