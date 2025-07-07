@@ -2,7 +2,7 @@
 title: j页面设置
 date: 2023-05-15
 type: posts
-cover: https://github.com/richbridge/picx-images-hosting/raw/master/thumbnail/程技.jpg
+cover: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/thumbnail/程技.jpg
 categories: [程技]
 tags: [VBA]
 ---

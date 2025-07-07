@@ -2,7 +2,7 @@
 title: Vim命令速查表
 date: 2017-03-06 11:23:36
 type: posts
-cover: https://github.com/richbridge/picx-images-hosting/raw/master/thumbnail/程技.jpg
+cover: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/thumbnail/程技.jpg
 categories: [程技]
 tags: ['vim']
 ---

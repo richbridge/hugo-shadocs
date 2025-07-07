@@ -2,7 +2,7 @@
 title: 如何在linux中搭建ftp服务
 date: 2017-03-06 08:47:48
 type: posts
-cover: https://github.com/richbridge/picx-images-hosting/raw/master/thumbnail/程技.jpg
+cover: https://jsd.cdn.zzko.cn/gh/richbridge/picx-images-hosting@master/thumbnail/程技.jpg
 categories: [程技]
 tags: ['ftp']
 ---
